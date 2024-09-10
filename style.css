@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+:root {
+    --primary: #B1B2FF;
+    --secondary: #EEF1FF;
+}
+
+*{
+    font-size: 1.04rem;
+    font-family: "SUSE", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: var(--secondary);
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 8px 8px;
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav img{
+    margin-right: 30px;
+}
+
+nav li a {
+    text-decoration: none;
+    text-wrap: nowrap;
+}
+
+nav i{
+    margin-left: 5px;
+}
+
+.goal-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 3em 5em;
+    gap: 2em;
+}
+
+.goal-section h3 {
+    background-color: var(--primary);
+    padding: 8px;
+    text-align: center;
+}
+
+.core-values-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.choose-vmuf-view {
+    display: flex;
+    gap: 5px;
+    margin-inline: 5em;
+}
+
+.choose-vmuf-view p{
+    text-align: center;
+}
+
+.choose-vmuf-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.icon-cover {
+    background-color: var(--primary);
+    width: 10em;
+    height: 10em;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-cover i {
+    font-size: 2.5em;
+}
+
+footer {
+    background-color: var(--primary);
+    margin-top: 2em;
+}
+
+.footer-social-media{
+    float: right;
+    margin-right: 10em;
+    margin-top: 1em;
+}
